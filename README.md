@@ -4,6 +4,7 @@
 
 ## General Information 
 =============================
+
 This repository provides code and instructions for implementing traffic sign detection using the YOLO_v8 object detection algorithm, along with the German Traffic Sign Detection Benchmark (GTSDB) dataset. YOLO_v8 is a state-of-the-art object detection algorithm known for its high accuracy and real-time processing capabilities. The GTSDB dataset is a widely used benchmark for evaluating traffic sign detection algorithms, providing a diverse collection of annotated images captured from various traffic scenarios on German roads.
 
 
