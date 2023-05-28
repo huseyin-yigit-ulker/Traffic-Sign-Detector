@@ -1,7 +1,7 @@
-path: /content/gdrive/MyDrive/Colab Notebooks/YOLO_train_ex/
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+path: /content/gdrive/MyDrive/Colab Notebooks/Traffic_Sign_Detection/Augmented_Data
+train: ../Train/images
+val: ../Validation/images
+test: ../Test/images
 
 nc: 43
 names: ['speed limit 20', 'speed limit 30', 'speed limit 50', 'speed limit 60', 'speed limit 70', 'NO-speed limit 80', 'restriction ends 80', 'speed limit 100', 'speed limit 120', 
