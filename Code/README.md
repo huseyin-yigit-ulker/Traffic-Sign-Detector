@@ -2,7 +2,7 @@ This project involves training multiple iterations of a model using various inpu
 
 ![](../images/coder.gif )
 
-=======
+---
 
 During the course of this project, modifications were primarily focused on two key aspects: the dataset used and the number of epochs. 
 
