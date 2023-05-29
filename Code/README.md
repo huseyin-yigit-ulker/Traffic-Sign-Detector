@@ -1,6 +1,6 @@
 This project involves training multiple iterations of a model using various inputs to improve its performance. This README file provides detailed information about the features and characteristics of these refined models.
 
-<iframe src="https://giphy.com/embed/ZVik7pBtu9dNS" width="480" height="268" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/life-interesting-footage-ZVik7pBtu9dNS">via GIPHY</a></p>
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/ZVik7pBtu9dNS" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/life-interesting-footage-ZVik7pBtu9dNS">via GIPHY</a></p>
 
 During the course of this project, modifications were primarily focused on two key aspects: the dataset used and the number of epochs. 
 
@@ -21,7 +21,7 @@ The model in this project was trained using the German Traffic Sign Detection Be
 
 After evaluating the model, it was observed that the mAP50 (mean Average Precision at IoU threshold of 0.5) and mAP50-95 (mean Average Precision across IoU thresholds from 0.5 to 0.95) values were significantly low. 
 
-![Baseline Model Result](../images/00026_baseline.png )
+![Baseline Model Result](../images/00026_baseline.jpg )
 
 
 ---
@@ -63,3 +63,14 @@ https://docs.ultralytics.com/usage/cfg/#train
 
 ---
 
+***Original German Traffic Sign Detection Benchmark***
+
+https://benchmark.ini.rub.de/gtsdb_news.html
+
+---
+
+***traffic-sign-detection-germany Image Dataset***
+
+https://universe.roboflow.com/projectthesis/traffic-sign-detection-germany/dataset/6
+
+---
