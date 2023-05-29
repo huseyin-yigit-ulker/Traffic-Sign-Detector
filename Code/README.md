@@ -1,9 +1,8 @@
 This project involves training multiple iterations of a model using various inputs to improve its performance. This README file provides detailed information about the features and characteristics of these refined models.
 
 ![](../images/coder.gif )
-=======
-<iframe src="https://giphy.com/embed/ZVik7pBtu9dNS" width="480" height="268" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/life-interesting-footage-ZVik7pBtu9dNS">via GIPHY</a></p>
 
+=======
 
 During the course of this project, modifications were primarily focused on two key aspects: the dataset used and the number of epochs. 
 
