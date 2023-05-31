@@ -1,3 +1,16 @@
+"""
+  Preprocesses the data by reading images, filtering annotations, and saving the images in a new directory.
+  The provided Python script processes files in the .ppm format and converts them to the .jpg format.
+
+  Args:
+      path_dir (str): The path to the directory containing the images to be processed.
+      save_path (str): The path to the directory where the preprocessed images will be saved.
+      ground_truth_path (str): The path to the ground truth file containing the annotations.
+
+  Returns:
+      train_data_df (pd.DataFrame): The preprocessed data containing the filtered annotations in a DataFrame.
+"""
+
 import pandas as pd
 import cv2 as cv
 import os
