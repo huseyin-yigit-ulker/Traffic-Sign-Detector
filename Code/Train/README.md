@@ -38,7 +38,7 @@ A notable modification to the Baseline model involved increasing the number of e
 ---
 **Detection_YOLOv8_3.ipynb**
 
-Upon encountering unsuccessful results with the initial two models, a decision was made to switch to a different dataset. The original GTSDB dataset was replaced with the German traffic sign dataset available on the roboflow site. The revised model was then trained for 25 epochs using this new dataset. The decision to switch datasets was prompted by improved performance, as indicated by mAP50 and mAP50-95 scores of 0.82 and 0.74, respectively.
+Upon encountering unsuccessful results with the initial two models, a decision was made to switch to a different dataset. The original GTSDB dataset was replaced with the German traffic sign dataset available on the roboflow site. The revised model was then trained for 50 epochs using this new dataset. The decision to switch datasets was prompted by improved performance, as indicated by mAP50 and mAP50-95 scores of 0.989 and 0.805, respectively.
 
 ![Model-4 Result](../../images/00026_model_3.jpg )
 
