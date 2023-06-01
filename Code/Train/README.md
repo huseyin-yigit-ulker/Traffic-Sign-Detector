@@ -45,14 +45,6 @@ Upon encountering unsuccessful results with the initial two models, a decision w
 ---
 **Detection_YOLOv8_4.ipynb**
 
-After achieving successful results with model-3 using the new dataset, a decision was made to retrain the model with an extended duration of 50 epochs, surpassing the previous 25 epochs. This adjustment led to significant improvements in performance, resulting in remarkably high mAP50 and mAP50-95 scores of 0.99 and 0.791, respectively.
-
-![Model-4 Result](../../images/00026_model_4.jpg )
-
-
----
-**Detection_YOLOv8_5.ipynb**
-
 Upon achieving success with Model_4, the development stages were concluded. However, in an attempt to understand the reasons behind the failures encountered with the original GTSDB dataset used in the baseline and Model_2, an analysis was conducted. Considering the possibility of insufficient data being a contributing factor, data augmentation techniques were applied, resulting in a quadrupling of the dataset. The model was then retrained using this augmented dataset for 30 epochs. The subsequent evaluation yielded promising results, with mAP50 and mAP50-95 values of 0.971 and 0.868, respectively. Despite this progress, further examination of the test data revealed that it still fell short in terms of sufficiency for successful traffic sign detection.
 
 ![Model-5 Result](../../images/00026_model_5.jpg )
